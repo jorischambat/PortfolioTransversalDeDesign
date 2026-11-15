@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your design practice across territories, services, products, and teaching. A portfolio site presenting cross-disciplinary projects with case studies, methods, and approach.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
