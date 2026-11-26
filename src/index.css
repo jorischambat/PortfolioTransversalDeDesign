@@ -355,7 +355,7 @@
 
 .project-image-wrap {
   position: relative;
-  height: clamp(330px, 35vw, 500px);
+  height: clamp(330px, 30vw, 500px);
   overflow: hidden;
   background: var(--accent);
 }
@@ -1213,6 +1213,7 @@
   border-left: 1px solid var(--line);
 }
 
+
 .project-gallery-section {
   padding-bottom: 24px !important;
 }
@@ -1249,12 +1250,12 @@
   width: 100%;
   height: 250px;
   object-fit: cover;
-  background: #ddd8cd;
-  filter: saturate(0.78) contrast(0.96);
+  object-position: center;
+  /* filter: saturate(0.78) contrast(0.96); */
 }
 
 .project-gallery figure:nth-child(3n + 1) img {
-  height: 410px;
+  height: 540px;
 }
 
 .project-gallery figcaption {

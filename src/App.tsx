@@ -30,41 +30,85 @@ const fieldColors: Record<Exclude<Field, "Tous">, string> = {
 
 const images = {
   lagoon:
-    "https://images.unsplash.com/photo-1761407377281-c9be66236177?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=1600",
+    "src/imports/rua.jpg",
   soap: "src/imports/couv-savon.png",
-  city: "https://images.unsplash.com/photo-1586983015617-abe6804e5b13?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=1600",
-  park: "https://images.unsplash.com/photo-1708536762720-2de54f337dcd?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=1600",
+  city: "src/imports/central-projet.png",
+  park: "src/imports/solaize.png",
+  monod: "src/imports/monod.jpg",
   workshop:
-    "https://images.unsplash.com/photo-1576595580361-90a855b84b20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=1600",
-  notes:
-    "https://images.unsplash.com/photo-1623652554515-91c833e3080e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=1600",
+    "src/imports/eddia-prototypage.jpg",
+  sgar: "src/imports/atelier-refugier.jpg",
+  notes: "src/imports/app-migrant.JPG",
   situ: "https://images.unsplash.com/photo-1674764809937-4eb93b7d587d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&q=85&w=1600",
+  dreal: "src/imports/dreal.jpg",
+  dinsi: "src/imports/interface-grandlyon.jpg",
+  communay: "src/imports/communay.png",
+  latoile: "src/imports/latoile.jpg",
 };
 
 const gallerySets = {
   lagoon: [
-    "https://images.unsplash.com/photo-1790271975107-6da68c67c839?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1765732569424-55bf9e156476?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1793176437010-59618526a938?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1776987622906-568e25ea38b4?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1786395990705-71e5e2b9858a?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1785300320569-feb3f5697abb?auto=format&fit=crop&q=82&w=1400",
+      "src/imports/rua/cartographie.png",
+     "src/imports/rua/IMG_1257.jpg",
+     "src/imports/rua/IMG_1265.jpg",
+     "src/imports/rua/signal_red.jpg",
+     "src/imports/rua/IMG_1286 copie.jpg",
+     "src/imports/rua/IMG_1274.jpg",
   ],
   object: [
-    "https://images.unsplash.com/photo-1454873019514-eae2f086587a?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1638560926839-cb90ababd947?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1781389005207-43129707e030?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1740205642609-dd05f13fe6ab?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1537962147314-af43fc79f7b7?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1474625121024-7595bfbc57ac?auto=format&fit=crop&q=82&w=1400",
+    "src/imports/savon/cartographie.png",
+    "src/imports/savon/poster.png",
+    "src/imports/savon/proto-2.png",
+    "src/imports/savon/visuel-proto.png",
+    "src/imports/savon/proto-1.png",
+    "src/imports/savon/proto-3.png",
+     "src/imports/savon/representation2.png",
+
   ],
   mobility: [
-    "https://images.unsplash.com/photo-1560831340-b9679dc9e9f0?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1577113398331-d843d3341a63?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1631860995319-c6f47760d2a0?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1694267354684-d99b1eb22d98?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1724062475300-4c8755ca6e3d?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1665794689559-f39a18eb4d9f?auto=format&fit=crop&q=82&w=1400",
+    "src/imports/centrale/ideation.png",
+    "src/imports/centrale/atelier-cabucelle.png",
+    "src/imports/centrale/joliette.png",
+    "src/imports/centrale/charge.png",
+    "src/imports/centrale/pass-famille.png",
+    "src/imports/centrale/pass-entreprise.png",
+    "src/imports/centrale/vue-centrale.png",
+    "src/imports/centrale/mediation.png",
+    "src/imports/centrale/mobilité-douce.png",
+    "src/imports/centrale/autopartage.png",
+    "src/imports/centrale/restitution.jpg",
+
+
+  ],
+  blancherie: [
+    "src/imports/blancherie/coupe-a.png",
+    "src/imports/blancherie/plan-masse.png",
+    "src/imports/blancherie/pont-simple.png",
+    "src/imports/blancherie/coupe-b.png",
+    "src/imports/blancherie/pontonavecbanc.png",
+    "src/imports/blancherie/pergola.png",
+    "src/imports/blancherie/local-poubelle.png",
+  ],
+  monod: [
+    "src/imports/monod/enssemble-monod.PNG",
+    "src/imports/monod/enjeux-monod.png",
+    "src/imports/monod/objectif.PNG",
+    "src/imports/monod/scenario3.jpg",
+    "src/imports/monod/PROFILS18.jpg",
+    "src/imports/monod/PROFILS6.jpg",
+    "src/imports/monod/PROFILS10.jpg",
+    "src/imports/monod/PROFILS14.jpg",
+    "src/imports/monod/PROFILS17.jpg",
+  ],
+
+  eddia: [
+    "src/imports/edd-ia/EDD-IA-PROTOTYPAGE-1.jpg",
+    "src/imports/edd-ia/immession-edd.jpg",
+    "src/imports/edd-ia/pacours.jpg",
+    "src/imports/edd-ia/EDD-IA-PROTOTYPAGE-4.jpg",
+
+    "src/imports/edd-ia/resitution-edd-ia.jpg",
+    "src/imports/edd-ia/restitution-edd-2.jpg",
   ],
   landscape: [
     "https://images.unsplash.com/photo-1697504297340-873ef481b8e8?auto=format&fit=crop&q=82&w=1400",
@@ -74,14 +118,7 @@ const gallerySets = {
     "https://images.unsplash.com/photo-1788100242143-0cc65ffb4505?auto=format&fit=crop&q=82&w=1400",
     "https://images.unsplash.com/photo-1788248009241-018884116e61?auto=format&fit=crop&q=82&w=1400",
   ],
-  workshop: [
-    "https://images.unsplash.com/photo-1623652554515-91c833e3080e?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1503551723145-6c040742065b-v2?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1580934174026-8142803ebb5b?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1576595580361-90a855b84b20?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?auto=format&fit=crop&q=82&w=1400",
-  ],
+
   learning: [
     "https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&q=82&w=1400",
     "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&q=82&w=1400",
@@ -91,21 +128,58 @@ const gallerySets = {
     "https://images.unsplash.com/photo-1758270704587-43339a801396?auto=format&fit=crop&q=82&w=1400",
   ],
   energy: [
-    "https://images.unsplash.com/photo-1552750624-02331736595a?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1714227175385-9d9551414aec?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1575434820845-498a1ab69f89?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1737489347654-fa8819393f23?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1753363724142-55355133f7a9?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1663456962593-b65d4784b79a?auto=format&fit=crop&q=82&w=1400",
+     
+        "src/imports/dinsi/Frame.png",
+       
+
   ],
-  school: [
-    "https://images.unsplash.com/photo-1552537595-b30edb7afd9d?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1710000853460-3650bada0d37?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1556863402-b5d84ed0b6d5?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1774879467955-28d1003cae31?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1759641801965-a15a53b877b4?auto=format&fit=crop&q=82&w=1400",
-    "https://images.unsplash.com/photo-1761208663468-980dcd6bfaea?auto=format&fit=crop&q=82&w=1400",
+ 
+  integration: [
+    "src/imports/integration-sprint/immersion-1.png",
+    "src/imports/integration-sprint/outil-1.JPG",
+    "src/imports/integration-sprint/homme-outil.JPG",
+    "src/imports/integration-sprint/outil-2.JPG",
+    "src/imports/integration-sprint/outil-3.JPG",
+    "src/imports/integration-sprint/outil-4.JPG",
+    "src/imports/integration-sprint/Cartographie-acteur.jpg",
+    "src/imports/integration-sprint/tiers-lieu.png",
+    "src/imports/integration-sprint/parole-liberee.png",
+    "src/imports/integration-sprint/storybord-2.jpg",
+    "src/imports/integration-sprint/storybord-3.jpg",
+    "src/imports/integration-sprint/fle.png",
+
   ],
+  coordination: [
+    "src/imports/coordination/mockup.png",
+    "src/imports/coordination/interface/dossier.jpg",
+    "src/imports/coordination/interface/dossier-probleme-discussion.jpg",
+    "src/imports/coordination/wireframe.png",
+    "src/imports/coordination/interface/contact.jpg",
+    "src/imports/coordination/interface/nouveau-dossier.jpg",
+    "src/imports/coordination/communaute.png",
+
+
+  ],
+  agrement : [
+     "src/imports/dreal/storyboard-harmonisation-des-pratiques.png",
+     "src/imports/dreal/atelier1.jpg",
+      "src/imports/dreal/atelier2.jpg",
+     "src/imports/dreal/prototype.png",
+  
+
+  ],
+  communay : [
+    "src/imports/communay/c-perspective.png",
+    "src/imports/communay/3D.png",
+    "src/imports/communay/coupe.png",
+  
+    "src/imports/communay/croquis-detail.png",
+    "src/imports/communay/plan-2d.png",
+    "src/imports/communay/plan-2d-detail.png",
+
+
+  ]
+
 };
 
 function getProjectGallery(project: Project) {
@@ -113,22 +187,27 @@ function getProjectGallery(project: Project) {
   if (project.id === "savon") return gallerySets.object;
   if (project.id === "mobilite") return gallerySets.mobility;
   if (project.id === "energie") return gallerySets.energy;
-  if (project.id === "communay") return gallerySets.school;
   if (project.id === "toile") return gallerySets.learning;
-  if (project.field === "Territoires") return gallerySets.landscape;
+  if (project.id === "blancherie") return gallerySets.blancherie;
+  if (project.id === "monod") return gallerySets.monod;
+  if (project.id === "edd-ia") return gallerySets.eddia;
+  if (project.id === "integration") return gallerySets.integration;
+  if (project.id === "coordination") return gallerySets.coordination;
+  if (project.id === "agrement") return gallerySets.agrement;
+  if (project.id === "communay") return gallerySets.communay;
   return gallerySets.workshop;
-}
 
+}
 const projects: Project[] = [
   {
     id: "rua",
     number: "01",
     field: "Services",
     image: images.lagoon,
-    year: "Expérimentation · TRL 5",
+    year: "2026",
     title: "Mettre à l’épreuve un balisage lumineux pour protéger la lagune",
-    shortTitle: "RUA · Bassin de Thau",
-    meta: "SMBT · Expérimentation territoriale",
+    shortTitle: "Expérimentation territoriale, Bassin de Thau ",
+    meta: "SMBT · Syndicat Mixte du Bassin de Thau ",
     context:
       "Le Syndicat Mixte du Bassin de Thau souhaitait confronter aux conditions réelles de navigation un dispositif numérique et lumineux aidant les plaisanciers à éviter les espaces naturels protégés de la lagune.",
     approach: [
@@ -160,26 +239,26 @@ const projects: Project[] = [
     number: "02",
     field: "Objets",
     image: images.soap,
-    year: "2021—2022",
+    year: "2022",
     title: "Réinventer les usages du savon solide par le design produit",
-    shortTitle: "Packaging pour savon solide",
-    meta: "Aphylle Savon · Design produit",
+    shortTitle: "Conception d'un packaging réutilisable",
+    meta: "Aphylle Savon",
     context:
       "Pour Aphylle Savon, l’enjeu était de concevoir un packaging et de nouveaux usages facilitant l’intégration du savon solide dans les habitudes quotidiennes : conservation, transport, hygiène perçue et fin de vie.",
     approach: [
-      "Observer et documenter les pratiques, notamment lors d’une immersion au Maroc",
+      "Observer et documenter les pratiques, notamment lors d’une d'observation et d'entretiens utilisateurs",
       "Concevoir trois propositions fondées sur des principes différents",
       "Les faire tester pendant un mois avec entretiens et carnets de bord",
       "Sélectionner une piste puis la faire évoluer en trois itérations",
     ],
     results: [
-      { value: "3", label: "propositions testées" },
-      { value: "1 mois", label: "de test en conditions réelles" },
+      { value: "3", label: "propositions de solutions testées" },
+      { value: "2 mois", label: "de test en conditions réelles" },
       { value: "3", label: "itérations de la piste retenue" },
     ],
     contribution:
       "Étude des usages et immersion, formulation des hypothèses, conception des trois propositions, prototypage physique, préparation et conduite des tests, analyse, itérations et pilotage du projet.",
-    tags: ["UX", "Matière", "Packaging", "Prototype"],
+    tags: ["UX", "Matière", "Packaging", "Produit"],
     evidence: [
       "Photos d’immersion",
       "Synthèse des usages",
@@ -196,21 +275,21 @@ const projects: Project[] = [
     field: "Services",
     image: images.city,
     imagePosition: "center 65%",
-    year: "2023 · 8 mois",
+    year: "2023",
     title: "Imaginer une offre de mobilité ancrée dans les pratiques d’un quartier",
-    shortTitle: "Centrale de mobilité des Fabriques",
+    shortTitle: "Imaginer la centrale de mobilité · Quartier des Fabriques",
     meta: "Euroméditerranée · Efficacity · VraimentVraiment",
     context:
       "À Marseille, la mission visait à donner une forme concrète à une centrale de mobilité adaptée aux habitants, salariés, commerçants et acteurs logistiques du quartier des Fabriques.",
     approach: [
       "Mener la recherche documentaire, les entretiens et les immersions",
       "Établir un diagnostic partagé des pratiques et contraintes",
-      "Animer concertation, co-conception et Accélérateur de projets",
+      "Animer concertation, co-conception et accélérateur de projets",
       "Scénariser des services et articuler court et long terme",
     ],
     results: [
       { value: "3", label: "scénarios complémentaires" },
-      { value: "2", label: "horizons d’action" },
+      { value: "2", label: "horizons d’action à court terme" },
       { value: "1", label: "plan d’action partagé" },
     ],
     contribution:
@@ -231,9 +310,9 @@ const projects: Project[] = [
     number: "04",
     field: "Territoires",
     image: images.park,
-    year: "2024 · Phase PRO",
+    year: "2022",
     title: "Donner forme à un paysage habité, du plan au détail technique",
-    shortTitle: "Chemin de la Blancherie",
+    shortTitle: "Conception paysagère et micro-architecture · Chemin de la Blancherie",
     meta: "Kaufman & Broad · reGénération · Nachampassak",
     context:
       "À Solaize, le projet compose un paysage habité entre frange boisée, placette, jardin cultivé, ravine de gestion des eaux pluviales et cheminements reliés au centre-ville.",
@@ -263,11 +342,11 @@ const projects: Project[] = [
     id: "monod",
     number: "05",
     field: "Territoires",
-    image: images.city,
-    year: "Étude urbaine · Plan-guide",
+    image: images.monod,
+    year: "2022",
     title: "Recomposer les espaces collectifs pour relier le quartier à la ville",
-    shortTitle: "Résidence Monod · Villeurbanne",
-    meta: "Villeurbanne · reGénération · Atelier Urba-Site",
+    shortTitle: " Urbanisme conseil · Etude paysagère · Résidence Monod",
+    meta: "reGénération · Atelier Urba-Site · GrandLyon Metropole",
     context:
       "Sur le site de l’ancienne cité Olivier de Serres, le projet interroge les limites, les accès et les espaces communs de la résidence Monod pour mieux la relier au quartier de Cusset.",
     approach: [
@@ -299,10 +378,10 @@ const projects: Project[] = [
     number: "06",
     field: "Services",
     image: images.workshop,
-    year: "Workshop · 3 semaines",
+    year: "Workshop ",
     title: "Outiller les discussions au travail pour transformer les pratiques",
-    shortTitle: "EDD-IA",
-    meta: "Métropole de Lyon · Erasme · Centrale Lyon",
+    shortTitle: "Bien-être au travail · EDD-IA",
+    meta: "Métropole de Lyon · Erasme",
     context:
       "Ce workshop explorait la manière dont les données ouvertes et un service numérique pourraient faciliter la remontée des problèmes, la structuration des discussions au travail et le suivi des actions.",
     approach: [
@@ -333,11 +412,11 @@ const projects: Project[] = [
     id: "integration",
     number: "07",
     field: "Services",
-    image: images.workshop,
-    year: "2019—2020",
-    title: "Identifier les ruptures de parcours pour améliorer l’accompagnement",
-    shortTitle: "Intégration en milieu rural",
-    meta: "SGAR AURA · Lab Archipel · Public Factory",
+    image: images.sgar,
+    year: "2020",
+    title: "Identifier les ruptures de parcours de l'intégration et améliorer l’accompagnement",
+    shortTitle: "Améliorer l'intégration des personnes réfugié.es en milieu rural",
+    meta: "SGAR Auvergne-Rhône-Alpes · La public Factory",
     context:
       "Au SGAR Auvergne-Rhône-Alpes, la démarche cherchait à comprendre les ruptures dans les parcours d’intégration des personnes réfugiées et les difficultés de coordination entre acteurs en milieu rural.",
     approach: [
@@ -369,10 +448,10 @@ const projects: Project[] = [
     number: "08",
     field: "Services",
     image: images.notes,
-    year: "Exploration · Maquette Figma",
+    year: "Exploration",
     title: "Concevoir un outil numérique pour faciliter la coopération",
-    shortTitle: "Coordination des acteurs de l’intégration",
-    meta: "Projet personnel exploratoire",
+    shortTitle: "Outil de coordination des acteurs de l’intégration",
+    meta: "Projet personnel",
     context:
       "Cette exploration prolonge les constats du projet d’intégration en milieu rural en imaginant un outil de mise en relation, de partage de compétences et de circulation d’informations entre aidants.",
     approach: [
@@ -403,10 +482,10 @@ const projects: Project[] = [
     id: "energie",
     number: "09",
     field: "Services",
-    image: images.city,
-    year: "Conception · UX/UI",
+    image: images.dinsi,
+    year: "2018",
     title: "Rendre les consommations d’énergie compréhensibles",
-    shortTitle: "Penser notre énergie",
+    shortTitle: "Service numérique a destination des citoyens",
     meta: "Métropole de Lyon · DINSI",
     context:
       "Le service numérique devait aider les citoyens à comprendre leurs consommations d’eau, de gaz et d’électricité et accompagner l’évolution de leurs comportements.",
@@ -438,10 +517,10 @@ const projects: Project[] = [
     id: "agrement",
     number: "10",
     field: "Services",
-    image: images.workshop,
-    year: "Design de service public",
+    image: images.dreal,
+    year: "2021",
     title: "Simplifier le parcours d’agrément du logement social",
-    shortTitle: "Agrément du logement social",
+    shortTitle: "Faciliter la coordination des acteurs publics et privés",
     meta: "DREAL Auvergne-Rhône-Alpes",
     context:
       "Le projet partait des différences entre processus départementaux d’agrément et cherchait à faciliter le partage d’informations entre bailleurs et services administratifs.",
@@ -473,11 +552,11 @@ const projects: Project[] = [
     id: "communay",
     number: "11",
     field: "Territoires",
-    image: images.park,
-    year: "Paysage · Concours",
-    title: "Faire de la cour d’école un lieu de fraîcheur et de découverte",
-    shortTitle: "École de Communay",
-    meta: "Communay · reGénération · Roda Architectes",
+    image: images.communay,
+    year: "2022",
+    title: "Faire de la cour d’école un lieu de fraîcheur, de découverte et d'apprentissage",
+    shortTitle: "Conception paysagère · École Minicipale de Communay",
+    meta: "reGénération · Roda Architectes",
     context:
       "Le concours proposait d’améliorer la qualité paysagère de l’école, de créer des îlots de fraîcheur, de végétaliser et désimperméabiliser les cours, et d’ouvrir certains espaces au public.",
     approach: [
@@ -502,11 +581,11 @@ const projects: Project[] = [
     id: "toile",
     number: "12",
     field: "Transmission",
-    image: images.notes,
+    image: images.latoile,
     year: "Depuis 2024",
     title: "Rendre le design et le numérique accessibles à des publics variés",
-    shortTitle: "La Toile",
-    meta: "emlyon business school · Mi-temps",
+    shortTitle: "Formation à la conception & au développement web",
+    meta: "emlyon business school · La Toile",
     context:
       "La Toile accompagne des adultes aux parcours et niveaux variés, dont certaines personnes éloignées de l’emploi ou de la formation, vers le développement web, le web design, l’UX/UI et le design de service.",
     approach: [
@@ -597,7 +676,7 @@ function App() {
             Accompagnement
           </a>
           <a href="#situ" onClick={closeMenu}>
-            Situ Studio
+            Situs Studio
           </a>
           <a href="#a-propos" onClick={closeMenu}>
             À propos
@@ -627,7 +706,7 @@ function App() {
           <h1>
             Donnez forme
             <br />
-           à vos idées
+            à vos idées
           </h1>
         </div>
         <div className="hero-bottom">
@@ -635,7 +714,7 @@ function App() {
             Je conçois des réponses situées, du <strong>territoire</strong> au{" "}
             <strong>service</strong> et de <strong> l'objet</strong> à <strong> l'espace</strong> en reliant enquête,
             conception, prototypage et expérimentation.
-            
+
           </p>
           <a className="text-link" href="#projets">
             Découvrir les projets <Arrow />
@@ -734,7 +813,7 @@ function App() {
                 <div className="project-card-copy">
                   <div className="project-meta">
                     <span>{project.meta}</span>
-                    <span>{project.year}</span>
+                    {/* <span>{project.year}</span> */}
                   </div>
                   <h3>{project.title}</h3>
                   <p>{project.shortTitle}</p>
@@ -817,17 +896,17 @@ function App() {
               <span>01 / Une pratique transversale</span>
               <h3>Accompagnement indépendant</h3>
               <p>Des interventions adaptées aux besoins et au contexte de chaque projet.</p>
-              <a href="mailto:?subject=Besoin d’accompagnement en design">
+              <a href="mailto:jorischambat@ik.me">
                 Échanger sur un projet <Arrow />
               </a>
             </article>
             <article className="situ-path">
               <span>02 / Une démarche spécifique</span>
-              <h3>Situ Studio</h3>
+              <h3>Situs Studio</h3>
               <p>
                 Une méthode structurée d’expérimentation territoriale pour éclairer une décision.
               </p>
-              <a href="#situ">
+              <a href="https://situstudio.fr/" target="_blank">
                 Découvrir la démarche <Arrow />
               </a>
             </article>
@@ -838,7 +917,7 @@ function App() {
               <p>Vous avez un projet ou un besoin d’accompagnement ?</p>
               <p>Échangeons sur votre situation et la manière dont je pourrais contribuer.</p>
             </div>
-            <a href="mailto:?subject=Échange autour d’un besoin d’accompagnement">
+            <a href="mailto:jorischambat@ik.me">
               <span>Parler de votre projet</span>
               <Arrow diagonal />
             </a>
@@ -854,7 +933,7 @@ function App() {
               <h2>
                 Du terrain
                 <br />
-               à la forme
+                à la forme
               </h2>
             </div>
             <p className="section-intro">
@@ -901,7 +980,7 @@ function App() {
             alt="Table de travail avec carnets et outils de conception"
             loading="lazy"
           />
-          <div className="visual-tag">Situ Studio</div>
+          <div className="visual-tag">Situs Studio</div>
           <div className="visual-caption">
             Faire à petite échelle pour décider à grande échelle.
           </div>
@@ -914,7 +993,7 @@ function App() {
             de déployer.
           </h2>
           <p className="lead">
-            Avec Situ Studio, j’accompagne les collectivités dans la structuration de leurs
+            Avec Situs Studio, j’accompagne les collectivités dans la structuration de leurs
             expérimentations territoriales.
           </p>
           <p>
@@ -934,7 +1013,7 @@ function App() {
             </li>
           </ul>
           <a className="situ-link" href="https://situstudio.fr" target="_blank" rel="noreferrer">
-            Découvrir Situ Studio <Arrow diagonal />
+            Découvrir Situs Studio <Arrow diagonal />
           </a>
         </div>
       </section>
@@ -953,31 +1032,35 @@ function App() {
               numériques et pédagogie.
             </p>
             <p>
-              Cette diversité n’est pas une juxtaposition de métiers. Elle nourrit une même capacité
+              Cette diversité nourrit ma capacité
               à lire une situation, dialoguer avec celles et ceux qui la vivent, puis traduire des
               intentions en formes concrètes.
             </p>
           </div>
           <div className="timeline">
             <div>
-              <span>2024—</span>
-              <strong>Formateur</strong>
-              <small>La Toile · emlyon</small>
+             
+              <strong>Formation & facilitation</strong>
+              <small>Conception d'animation et de pédagogie </small>
+              <small>Intelligence collective & co-conception</small>
             </div>
             <div>
-              <span>2020—</span>
-              <strong>Designer indépendant</strong>
+             
+              <strong>Product Design</strong>
               <small>Innovation & services</small>
+              <small>Produit & interfaces</small>
             </div>
             <div>
-              <span>Exp.</span>
-              <strong>Designer public</strong>
-              <small>SGAR · Lab Archipel</small>
+            
+              <strong>Recherche utilisateur</strong>
+              <small>Éthnographie & UX research</small>
+              <small>Test & Expérimentation territoriale</small>
             </div>
             <div>
-              <span>Exp.</span>
-              <strong>Paysagiste concepteur</strong>
-              <small>reGénération</small>
+          
+              <strong>Design d'esapce</strong>
+              <small>Conception paysagère & Urbanisme conseil</small>
+               <small>Micro-architecture</small>
             </div>
           </div>
         </div>
@@ -986,7 +1069,7 @@ function App() {
       <footer id="contact" className="footer">
         <div className="page-wrap">
           <p className="section-label">07 — Contact</p>
-          <a className="footer-cta" href="mailto:?subject=Échange autour d’un projet de design">
+          <a className="footer-cta" href="mailto:jorischambat@ik.me">
             <span>Un projet, une question ?</span>
             <strong>Échangeons.</strong>
             <i>
